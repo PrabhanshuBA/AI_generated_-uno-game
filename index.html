@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UNO Game (Pass and Play)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>UNO Game</h1>
+  <div id="game">
+    <div id="player-area">
+      <h2>Player <span id="current-player">1</span>'s Turn</h2>
+      <div id="player-hand"></div>
+    </div>
+
+    <div id="middle-area">
+      <button id="draw-button">Draw Card</button>
+      <div id="top-card-area">
+        <h3>Top Card</h3>
+        <div id="top-card"></div>
+      </div>
+    </div>
+
+    <div id="controls">
+      <button id="next-player">Next Player</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
